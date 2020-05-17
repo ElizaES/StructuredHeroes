@@ -18,7 +18,7 @@ struct hero
 void WpisywanieIndeksu(int &indeks, int ilosc, int *add_ind, int &ilosc_wpisanych) {
 
 	do {
-		cout << "Jezeli chesz stworzyc bohatera - wpisz indeks: ";
+		cout << "Jezeli chcesz stworzyc bohatera - wpisz indeks: ";
 		cin >> indeks;
 	} while (indeks < 0 || indeks > ilosc);
 
